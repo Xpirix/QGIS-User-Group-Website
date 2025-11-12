@@ -1,27 +1,23 @@
 <div class="box mb-0 context-container" id="context">
     <div class="container">
         <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand is-align-items-center is-justify-content-space-between">
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
+            <div class="navbar-end is-align-items-center is-justify-content-space-between">
 
-
-                <div id="search-control" class="control has-icons-right search-control is-hidden-desktop">
-                    <form action="{{ "search/" | absURL }}" method="GET">
-                        <input
-                            class="input is-small"
-                            type="search"
-                            id="search-query"
-                            name="q"
-                            placeholder="Search"
-                        />
-                        <span class="icon is-right">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                    </form>
+                <div class="navbar-item">
+                    <div id="search-control" class="control has-icons-right search-control is-hidden-desktop">
+                        <form action="{{ "search/" | absURL }}" method="GET">
+                            <input
+                                class="input is-small"
+                                type="search"
+                                id="search-query"
+                                name="q"
+                                placeholder="Search"
+                            />
+                            <span class="icon is-right">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div id="navbarMenu" class="navbar-menu">

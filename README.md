@@ -194,6 +194,17 @@ Edit `config.toml` to customize:
 - Social media links
 - Analytics settings
 
+### Navigation menu
+
+Edit the `themes/hugo-bulma-blocks-theme/layouts/partials/menu.html` file to customize:
+
+- `logo-icon`: The logo on the main navigation menu (by default: QGIS logo)
+- `logo-link`: The link where the logo points to (by default: qgis.org). You can set it to `/` if you want to point the logo the homepage of your user group website.
+- `second-menu-prefix`: The link of this user group website (eg. https://sweden.qgis.org)
+- `secondary-menu-config`: The link to the `navigation.json` used for the mobile menu (See below). For example: https://raw.githubusercontent.com/qgis/QGIS-User-Group-Website/usergroup_switzerland/static/config/navigation.json
+
+Edit the `static/config/navigation.json` file to customize the secondary menu on mobile. This file should be updated whenever you modify your menu entries.
+
 ### Images and Assets
 
 - Place images in `static/img/` or `content/`

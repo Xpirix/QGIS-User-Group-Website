@@ -1,0 +1,40 @@
+{
+  "navigation": [
+    {
+      "type": "menu",
+      "settings": {
+        "name": "QGIS Switzerland",
+        "children": [
+          {
+            "type": "second-menu",
+            "settings": {
+              "name": "Home",
+              "href": "/"
+            }
+          },
+          {
+            "type": "second-menu",
+            "settings": {
+              "name": "Events",
+              "href": "/events/"
+            }
+          },
+          {
+            "type": "second-menu",
+            "settings": {
+              "name": "Who we are",
+              "href": "/who-we-are/"
+            }
+          },
+          {
+            "type": "second-menu",
+            "settings": {
+              "name": "Rules",
+              "href": "/rules/"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
